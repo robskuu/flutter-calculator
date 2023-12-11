@@ -84,7 +84,7 @@ class _HomePageState extends State<HomePage> {
                     answer,
                     style: const TextStyle(
                         fontSize: 30,
-                        color: Colors.white,
+                        color: ColorConstants.textColor,
                         fontWeight: FontWeight.bold),
                   ),
                 )
@@ -168,7 +168,7 @@ class _HomePageState extends State<HomePage> {
                     );
                   }
 
-                  //  other buttons
+                  // Other buttons
                   else {
                     return MyButton(
                       buttontapped: () {
@@ -178,9 +178,9 @@ class _HomePageState extends State<HomePage> {
                       },
                       buttonText: buttons[index],
                       color: isOperator(buttons[index])
-                          ? const Color.fromRGBO(60, 60, 60, 1)
-                          : const Color.fromRGBO(50, 50, 50, 1),
-                      textColor: const Color.fromRGBO(195, 195, 195, 1),
+                          ? ColorConstants.mainButton
+                          : ColorConstants.secondaryButton,
+                      textColor: ColorConstants.textColor,
                     );
                   }
                 }),
