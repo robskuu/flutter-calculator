@@ -1,6 +1,6 @@
 # Calculator App
 
-## A calculator app made using flutter
+### A calculator app made using flutter
 
-## Output
+## Output:
 ![Output Image](output.png)
