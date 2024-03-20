@@ -14,10 +14,10 @@ flutter create your_project_name
 cd your_project_name
 ```
 
-## 2. Replcate the contents of the `lib` folder
+## 2. Replace the contents of the `lib` folder
 Replace the contents of the `lib` folder with the contents of the `lib` folder in this github repo
 
-## 3. Replcate the `pubspec.yaml` file
+## 3. Replace the `pubspec.yaml` file
 Delete the current `pubspec.yaml` file and copy the one from this repo to the root of your project
 
 ## 4. Install dependencies
